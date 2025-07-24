@@ -1,24 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+
+import { useEffect } from "react";
+
+import Home from "./components/pages/Home";
+import Skills from "./components/pages/Skills";
+import Contact from "./components/pages/Contact";
+import Project from "./components/pages/Projects";
+
+import Container from "./components/Layout/Container";
+import NavBar from "./components/Layout/NavBar";
+import Footer from "./components/Layout/Footer";
+
+import CustomCursor from "./components/CustomCursor";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+  useEffect(() => {
+    const setViewportHeight = () => {
+      const vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    };
+
+    setViewportHeight();
+
+    window.addEventListener('resize', setViewportHeight);
+
+    return () => {
+      window.removeEventListener('resize', setViewportHeight);
+    };
+  }, []);
+
+
+    return (
+    <Router>
+      <CustomCursor />
+      <NavBar />
+      <Container className="my_section">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/project" element={<Project />} />
+        </Routes>
+      </Container>
+      <Footer />
+    </Router>
   );
 }
 

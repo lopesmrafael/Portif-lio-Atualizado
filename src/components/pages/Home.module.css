@@ -1,0 +1,21 @@
+.home_container {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2em 2em;
+  gap: 2em; 
+  box-sizing: border-box;
+  background-color: #0f172a;
+}
+
+.home_container img {
+  display: block;
+  margin-left: auto;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 100%;
+}
