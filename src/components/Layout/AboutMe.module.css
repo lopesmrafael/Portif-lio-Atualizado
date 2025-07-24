@@ -22,3 +22,22 @@
   font-size: 1em;
   text-align: justify;
 }
+
+@media (max-width: 480px) {
+  .about {
+    margin: 1em;
+    padding: 0.5em;
+  }
+
+  .about h1 {
+    font-size: 1.4em;
+  }
+
+  .about h2 {
+    font-size: 1.2em;
+  }
+
+  .about p {
+    font-size: 0.9em;
+  }
+}

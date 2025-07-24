@@ -11,8 +11,6 @@ import Container from "./components/Layout/Container";
 import NavBar from "./components/Layout/NavBar";
 import Footer from "./components/Layout/Footer";
 
-import CustomCursor from "./components/CustomCursor";
-
 function App() {
 
   useEffect(() => {
@@ -33,7 +31,6 @@ function App() {
 
     return (
     <Router>
-      <CustomCursor />
       <NavBar />
       <Container className="my_section">
         <Routes>
