@@ -1,19 +1,19 @@
 .navbar {
-  height: 10vh;
+  height: auto; /* para evitar quebra de layout */
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #0f172a;
   padding: 1em;
+  flex-wrap: wrap; /* permite quebrar se não couber */
 }
 
 .list {
   display: flex;
   list-style: none;
   align-items: center;
-}
-
-.item {
-  margin-right: 1em;
+  gap: 1em;
+  flex-wrap: wrap; /* para quebrar linhas se precisar */
 }
 
 .item a {
@@ -25,14 +25,19 @@
   color: #94a3b8;
 }
 
-.navbar img{
+.navbar img {
   width: 40px;
   border-radius: 100%;
 }
 
+/* 🔽 Media query para melhorar espaçamento e legibilidade */
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  } 
+    justify-content: center;
+  }
+
+  .list {
+    justify-content: center;
+    gap: 1em;
+  }
 }

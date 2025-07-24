@@ -42,7 +42,7 @@
 @media (max-width: 600px) {
   .social_list {
     flex-direction: row;
-    gap: 1em;
+    gap: 2em;
     display: flex;
     justify-content: center;
   }
