@@ -1,5 +1,5 @@
 .footer {
-  height: 15vh;
+  height: 18vh;
   background-color: #222;
   color: #fff;
   padding: 3em;
@@ -45,5 +45,9 @@
     gap: 2em;
     display: flex;
     justify-content: center;
+  }
+
+  .copy_right {
+    margin-top: 0.8em;
   }
 }
