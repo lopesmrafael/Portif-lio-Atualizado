@@ -56,6 +56,19 @@ function Project() {
       github: "https://github.com/lopesmrafael/saborexpresso.git",
       site: "https://lopesmrafael.github.io/saborexpresso/",
     },
+    {
+      img: require("../../img/controledefinanças.png"),
+      nome: "Controle de finanças",
+      descricao: (
+        <p>
+          Controle de Finanças é um projeto desenvolvido para praticar e fixar
+          habilidades em React e JavaScript. A aplicação permite registrar e
+          visualizar entradas e saídas financeiras.
+        </p>
+      ),
+      github: "https://github.com/lopesmrafael/caucula-finan-as-react",
+      site: "https://caucula-finan-as-react.vercel.app/",
+    },
   ];
 
   return (
