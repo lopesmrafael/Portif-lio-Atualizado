@@ -69,6 +69,20 @@ function Project() {
       github: "https://github.com/lopesmrafael/caucula-finan-as-react",
       site: "https://caucula-finan-as-react.vercel.app/",
     },
+    {
+      img: require("../../img/Calculadora.png"),
+      nome: "Calculadora em TypeScript",
+      descricao: (
+        <p>
+          Calculadora em TypeScript é um projeto desenvolvido para praticar e
+          fixar habilidades em TypeScript e JavaScript. A aplicação
+          permite realizar operações matemáticas básicas com uma interface
+          amigável.
+        </p>
+      ),
+      github: "https://github.com/lopesmrafael/Calculadora-TypeScript.git",
+      site: "https://calculadora-type-script-rosy.vercel.app/",
+    },
   ];
 
   return (
