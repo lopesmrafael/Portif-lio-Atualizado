@@ -44,19 +44,6 @@ function Project() {
       site: "https://lopesmrafael.github.io/TabelaPeriodica/",
     },
     {
-      img: require("../../img/SaborExpresso.png"),
-      nome: "Sabor Expresso",
-      descricao: (
-        <p>
-          Meu primeiro projeto na programação web, usando apenas HTML e CSS.
-          Nele comecei a me familiarizar com o Figma e com o processo de
-          transformar layouts em código.
-        </p>
-      ),
-      github: "https://github.com/lopesmrafael/saborexpresso.git",
-      site: "https://lopesmrafael.github.io/saborexpresso/",
-    },
-    {
       img: require("../../img/controledefinanças.png"),
       nome: "Controle de finanças",
       descricao: (
@@ -83,6 +70,19 @@ function Project() {
       github: "https://github.com/lopesmrafael/Calculadora-TypeScript.git",
       site: "https://calculadora-type-script-rosy.vercel.app/",
     },
+    {
+      img: require("../../img/FullSetup.png"),
+      nome: "Full Setup React",
+      descricao: (
+        <p>
+          Full Setup React é um projeto desenvolvido para praticar e fixar
+          habilidades em React, JavaScript e o Firebase. A aplicação demonstra a configuração
+          completa de um ambiente React, incluindo autenticação e banco de dados em tempo real.
+        </p>
+      ),
+      github: "https://github.com/lopesmrafael/FullSetup.git",
+      site: "https://fullsetup.vercel.app/",
+    }
   ];
 
   return (
