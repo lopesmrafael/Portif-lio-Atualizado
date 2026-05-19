@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 import Home from "./components/pages/Home";
 import Skills from "./components/pages/Skills";
+import Certification from "./components/pages/Certification";
 import Contact from "./components/pages/Contact";
 import Project from "./components/pages/Projects";
 
@@ -36,6 +37,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/certification" element={<Certification />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/project" element={<Project />} />
         </Routes>

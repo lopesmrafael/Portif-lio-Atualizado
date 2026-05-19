@@ -21,6 +21,9 @@ function Navbar() {
             <Link to="/skills">Habilidade</Link>
           </li>
           <li className={styles.item}>
+            <Link to="/certification">Certificados</Link>
+          </li>
+          <li className={styles.item}>
             <Link to="/contact">Contato</Link>
           </li>
           <li className={styles.item}>
