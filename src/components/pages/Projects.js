@@ -82,6 +82,19 @@ function Project() {
       ),
       github: "https://github.com/lopesmrafael/FullSetup.git",
       site: "https://fullsetup.vercel.app/",
+    },
+    {
+      img: require("../../img/DevGram.png"),
+      nome: "DevGram",
+      descricao: (
+        <p>
+          DevGram é um aplicativo desenvolvido para praticar e fixar habilidades em desenvolvimento Flutter, e firebase, 
+          juntamento com o supabase. A aplicação permite aos usuários compartilhar fotos e interagir com outras 
+          fotos de outros usuários, no feed do aplicativo, pensado no desenvolvimento similar ao Instagram.
+        </p>
+      ),
+      github: "https://github.com/lopesmrafael/Dev-Gram.git",
+      site: "https://dev-gram-nrimf4dwu-rafalopesmonte-6783s-projects.vercel.app/",
     }
   ];
 
