@@ -95,6 +95,18 @@ function Project() {
       ),
       github: "https://github.com/lopesmrafael/Dev-Gram.git",
       site: "https://dev-gram-nrimf4dwu-rafalopesmonte-6783s-projects.vercel.app/",
+    },
+    {
+      img: require("../../img/le-dunut.png"),
+      nome: "Le Dunut",
+      descricao: (
+        <p>
+          Le Dunut é um site de uma loja de donuts, que peguei na web com o objetivo de melhorar a navegação do usuario e melhorar
+          o codigo, desenvolvido para praticar e fixar habilidades em desenvolvimento React e Typescript, e firebase,
+        </p>
+      ),
+      github: "https://github.com/lopesmrafael/Le_Donut.git",
+      site: "https://le-donut.vercel.app/",
     }
   ];
 
