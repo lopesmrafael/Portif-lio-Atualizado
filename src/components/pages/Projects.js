@@ -102,7 +102,8 @@ function Project() {
       descricao: (
         <p>
           Le Dunut é um site de uma loja de donuts, que peguei na web com o objetivo de melhorar a navegação do usuario e melhorar
-          o codigo, desenvolvido para praticar e fixar habilidades em desenvolvimento React e Typescript, e firebase,
+          o codigo, desenvolvido para praticar e fixar habilidades em desenvolvimento em arquitetura de projeto React, Typescript 
+          e sql
         </p>
       ),
       github: "https://github.com/lopesmrafael/Le_Donut.git",
